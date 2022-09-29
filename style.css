@@ -1,23 +1,40 @@
-                /* CSS follows rulesets */
-                
-                body {
-                    background-color: slategray;
-                    font-family: Calibri, sans-serif;
-                }
-                
-                .nav {
-                    background-color: blue;
-                }
-                
-                .menu-options {
-                    list-style-type: none;
-                }
-                
-                .nav-link {
-                    text-decoration: none;
-                    color: whitesmoke;
-                }
-                
-                .nav-link:hover {
-                    color: #2980b9;
-                }
+/* CSS follows rulesets */
+
+body {
+    background-color: slategray;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    width: 100vw;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-options {
+    list-style-type: none;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-link:hover {
+    color: #2980b9;
+}
+
+.form-display {
+    display: block;
+}
+
+#email-input {
+    width: 15em;
+}
